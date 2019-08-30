@@ -1,4 +1,4 @@
-/*General css*/
+General css*/
 
 *, *:before, *:after {
 	    box-sizing: border-box;
@@ -24,7 +24,7 @@
  	justify-content: space-between;
  	align-items: center;
   	flex-wrap: wrap;
- 
+
  }
  .nav-flex {
  	display: flex;
@@ -64,6 +64,7 @@
  .header {
  	background-color: #07125F;
  	height: 100vh;
+ 	/* position: relative;*/
  }
 
 .div-head h4 {
@@ -95,8 +96,17 @@
 .btn {
 	background-color: #8C8EA0;
 	color: #fff;
-	padding: 1rem 1.5rem;
+	padding: 0.9rem 1.5rem;
 	border: none;
+	font-weight: 300;
+}
+.btn-more {
+	background-color: #07125F;
+	color: #fff;
+	padding: 0.9rem 1.5rem;
+	border: none;
+	font-weight: 300;
+	margin: 2rem 0;
 }
 .image {
 	
@@ -108,6 +118,77 @@
   	width: 55%;
   	max-height: 100vh;
 }
+/*sec-1*/
+.sec-1-div {
+	width: 40%;
+	margin-left: 11rem;
+	margin-top: 7rem;
+	/*margin-right: 4rem;*/
+	margin-bottom: 2rem;
+}
+.sec-1-div h3 {
+	color: #A0A0A0;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	/*margin-left: 21rem;*/
+	font-size: 1.5rem;
+}
+
+.sec-1-div h2 {
+	color: black;
+	font-weight: 900;
+	font-size: 2rem;
+	margin: 1rem 0;
+/*	margin-left: 4rem;*/
+}
+
+.sec-1-div p {
+	 color: #A0A0A0;
+	 line-height:initial;
+	 font-size: 1rem;
+	/* margin-right: 7.5rem;
+	 padding-right: 1rem;*/
+}
+/*icons*/
+.sec-1-div2 {
+	width:40%;
+	margin-right: 5rem;
+}
+
+.div-icons-1 {
+ background-color: grey;
+ height:10rem;
+ width:10rem;
+ margin:1rem;
+ text-align: center;
+}
+
+.icons {
+
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	padding:5rem;
+}
+.i {
+	margin-top: 3rem;
+	border-radius: 50%;
+	padding:2rem;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,4 +266,4 @@
   .col {
   	width: 100%;
   }
-}*/
+}
