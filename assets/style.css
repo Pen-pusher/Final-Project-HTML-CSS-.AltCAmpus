@@ -42,12 +42,12 @@
 	 }
 	 
 	 /*hamburger toggle*************/
-	/* #toggle {
+	 #toggle {
 	  display: none;
 	}
 	.bar {
 	  display: none;
-	}*/
+	}
 	 /*Header**********************************/
 	 .header h2{
 	 	font-size: 2rem;
@@ -533,59 +533,146 @@
 
 
 
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
 
+  }
+  .main {
+  	width: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*media queries*/
-	/*@media all and (max-width: 768px) {
-	  html {
-	    font-size: 10px;
-	  }*/
-	  
-	  
-	  /*hamburger*************/
-	/*.main-nav {
-	    display: none;
-	    position: absolute;
-	    background: rgba(0, 0, 0, 0.5);
-	    padding-top: 6.2rem;
-	    text-align: center;
-	    top: 0;
-	    left: 0;
-	    right: 0;
-	    bottom: 0;
-	  }
-	.main-nav-link {
-	    display: inline-block;
-	  }
-	.bar {
-	    display: inline-block;
-	    font-size: 1.5rem;
-	    color: #5ebd8b;
-	    position: absolute;
-	    z-index: 99;
-	   margin-left: 150px;
-	  }
-	#toggle:checked ~ .main-nav {
-	    display: block;
-	  }
-	  .col {
+  }
+  .flexy {
+  	width: 100%;
+  }
+  .div-head h4{
+  	font-weight: 100;
+  	font-size: 17px;
+  	line-height: 2;
+  	width: 80%;
+  	margin-bottom:15px; 
+  	margin-left: 10px;
+  }
+  .div-para {
+  	width: 60%;
+  	margin-bottom: 5px;
+  	margin-left: 10px;
+  }
+ /* .btn {
+    width: 100%;
+}*/
+.button {
+	
+	width: 100%;
+}
+ .image {
+		
+	 	border-radius: 65%;
+	 	border-top-right-radius:0%; 
+	  	top: 50%;
+	  	right:0%;
 	  	width: 100%;
-	  }
+	  	position: absolute;
+	  	
 	}
+/*.sec-1 {
+	width: 100%;
+}
+
+.sec-1 p {
+	width: 20%;
+	max-height: 10%;
+}*/
+ .sec-4-div {
+ 	width: 100%;
+ 	
+ }
+ .hero {
+ 	width: 100%;
+
+ }
+ .sec-2-div1, .sec-2-div2 {
+ 	width: 100%;
+
+ }
+ .sec-1-div{
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .sec-1-div2{
+ 	width: 100%;
+ 	margin: 0;
+ 	padding:0; 
+
+ }
+ .icon-1, .icon-2, .icon-3, .icon-4 {
+ 	width: 100%;
+ 	margin: 0;
+ 	padding:0; 
+ 	position: relative;
+ 	align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+ }
+
+.div-icons-1 {
+	width: 100%;
+	
+}
+
+
+
+
+  /*hamburger*************/
+.main-nav {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 6.2rem;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+.main-nav-link {
+    display: inline-block;
+  }
+.bar {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #5ebd8b;
+    position: absolute;
+    z-index: 99;
+   margin-left: 150px;
+  }
+#toggle:checked ~ .main-nav {
+    display: block;
+  }
+  .col {
+  	width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
